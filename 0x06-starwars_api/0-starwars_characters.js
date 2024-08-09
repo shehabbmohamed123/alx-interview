@@ -7,7 +7,7 @@ if (process.argv.length !== 3 || isNaN(process.argv[2])) {
 }
 
 const filmId = process.argv[2];
-const url = `https://swapi-api.alx-tools.com/api/films/${filmId}/`;
+const url = `https://swapi.dev/api/films/${movieId}/`;
 
 request(url, (error, response, body) => {
   if (error) {
